@@ -77,7 +77,7 @@
 ## Дети-авторы и дети-читатели
 
     1. Creative writing
-        ![](wordcloud.jpg)
+        ![img](https://github.com/Avvrik/DH-Tutorial-poetry/blob/master/wordcloud.jpg)
         
     2. Миметический и семиотический факт
     
