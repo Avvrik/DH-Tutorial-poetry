@@ -17,6 +17,11 @@
 #### Лемматизация
      from nltk.stem import WordNetLemmatizer
      lemmas = [lemmatizer.lemmatize(t) for t in tokens]
+#### Стоп-слова
+      from nltk.corpus import stopwords
+      stop_words = set(stopwords.words('english'))
+      stop_words.update(['.', ',', '"', "'", '?', '!', ':', ';', '(', ')', '[', ']', '{', '}'])
+      good_words = [word for word in tokens if word not in stop_words]
       
       
       
