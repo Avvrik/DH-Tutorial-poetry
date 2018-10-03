@@ -77,7 +77,7 @@
 ## Дети-авторы и дети-читатели
 
     1. Creative writing
-        ![](.images/wordcloud.jpg)
+        ![](./wordcloud.jpg)
         
     2. Миметический и семиотический факт
     
