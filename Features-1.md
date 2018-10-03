@@ -31,5 +31,15 @@
         
         total = sum(counts.values())
         dict((word, float(n)/total) for word,n in counts.items())
+#### Concrete - abstract nouns
+        Download lists of concrete and abstract nouns
+        
+        dict_corpus = {'concrete':[], 'abstract':[]}
 
-
+        for word in tokens_corpus:
+                if word in tokens:
+                        dict_corpus['concrete'].append(word)
+                elif word in tokens1:
+                        dict_corpus['abstract'].append(word)
+                        print(len(set(dict_corpus['concrete'])))
+                        print(len(set(dict_corpus['abstract'])))
