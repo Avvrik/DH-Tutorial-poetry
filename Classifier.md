@@ -1,13 +1,15 @@
 ## Build a classifier with sklearn and KFold
-#### Разделить тексты на 2 выборки: train и test
-        from sklearn.model_selection import KFold
-        kf = KFold(n_splits=3, shuffle = True)
-        kf.get_n_splits(all_texts)
 #### Импортировать необходимые библиотеки
+        from sklearn.model_selection import KFold
         from sklearn.metrics import recall_score
         from sklearn.metrics import classification_report
         from sklearn.naive_bayes import MultinomialNB
         from collections import Counter
+        
+#### Разделить тексты на 2 выборки: train и test
+        kf = KFold(n_splits=3, shuffle = True)
+        kf.get_n_splits(all_texts)
+
 #### Построить классификатор и распечатать данные о его работе
         report = []
 
