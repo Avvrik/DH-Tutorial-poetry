@@ -17,6 +17,25 @@
 #### Лемматизация
      from nltk.stem import WordNetLemmatizer
      lemmas = [lemmatizer.lemmatize(t) for t in tokens]
+     
+     def lemmatizer(poem):
+          tokens = word_tokenize(poem)
+          tokens_tags = nltk.pos_tag(tokens)
+          matching_tags = {'NN':'n', 'VB':'v', 'JJ':'a', 'RB':'r'}
+
+          lemmatizer = WordNetLemmatizer()
+          tokens_lemma = []
+          for (token, tag) in tokens_tags:
+
+              if not(token[0].isalpha()):
+                  continue
+              token = token.lower()
+              if tag[:2] in matching_tags:
+                  token = lemmatizer.lemmatize(token, pos=matching_tags[tag[:2]])
+                  tokens_lemma.append(token)
+
+          return ' '.join(tokens_lemma)
+    
 #### Стоп-слова
       from nltk.corpus import stopwords
       stop_words = set(stopwords.words('english'))
