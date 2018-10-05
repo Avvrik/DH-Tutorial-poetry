@@ -3,6 +3,11 @@
 #### Загрузить файлы
       with open('file-name-here', 'r', encoding = 'utf-8') as f:
         string = f.read()
+#### Убрать пунктуацию
+      import re 
+      children_clean = re.sub("[.,\"?!:;()\[\]{}\-–—]", "", children)
+      lay_clean = re.sub("[.,\"?!:;()\[\]{}\-–—]", "", lay)
+      prof_clean = re.sub("[.,\"?!:;()\[\]{}\-–—]", "", prof)
 #### Токенизация
       Вручную:
             tokens = string.lower().split()
