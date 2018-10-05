@@ -45,7 +45,7 @@
       stop_words.update(['.', ',', '"', "'", '?', '!', ':', ';', '(', ')', '[', ']', '{', '}'])
       good_words = [word for word in tokens if word not in stop_words]
 #### Маленькие слова
-            tinies = ['a', 'ah', 'am', 'an',
+ tinies = ['a', 'ah', 'am', 'an',
  'as',
  'at',
  'be',
