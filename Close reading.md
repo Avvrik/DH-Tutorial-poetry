@@ -16,6 +16,11 @@
   * Морфология
   * Фонетика
   
+#### Полезные ссылки
+ * [Close reading example](https://owl.purdue.edu/owl/subject_specific_writing/writing_in_literature/poetry_close_reading.html)
+ * [Creative writing exercises](https://owl.purdue.edu/owl/subject_specific_writing/creative_writing/poetry_writing/poetry_invention_exercises.html)
+ * [Typical creative writing tips](https://www.theschoolrun.com/bringing-creative-writing-to-life)
+ 
 ### Детские стихотворения
 
 #### Wonder
