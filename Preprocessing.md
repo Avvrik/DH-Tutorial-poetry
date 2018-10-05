@@ -15,9 +15,7 @@
                        
             3. tokens = nltk.word_tokenize(string)
 #### Лемматизация
-     from nltk.stem import WordNetLemmatizer
-     lemmas = [lemmatizer.lemmatize(t) for t in tokens]
-     
+
      def lemmatizer(poem):
           tokens = word_tokenize(poem)
           tokens_tags = nltk.pos_tag(tokens)
