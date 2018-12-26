@@ -11,7 +11,6 @@
 
  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
  <a class="btn btn-secondary btn-sm" href="https://avvrik.github.io/KeyChain/" type="button">Documentation</a>
- <button type="button" class="btn btn-secondary btn-sm"href="https://avvrik.github.io/KeyChain/" type="button">Documentation</button>
  <a class="btn btn-secondary btn-sm" href="https://github.com/arrayio/array-io-keychain/releases/download/0.11/KeyChain.Installer.v0.11.zip" type="button">Download</a>
  <button type="button" class="btn btn-secondary btn-sm" href="https://github.com/arrayio/array-io-keychain/releases/download/0.11/KeyChain.Installer.v0.11.zip">Download</button>
  <a class="btn btn-secondary btn-sm" href="https://keychain.array.io/" type="button">Download</a>
