@@ -10,8 +10,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/arrayio/array-io-keychain/blob/master/LICENSE.md)
 
  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
- [![Documentation](class="btn btn-secondary btn-sm")](https://avvrik.github.io/KeyChain/)
- <button type="button" class="btn btn-secondary btn-sm" href="https://avvrik.github.io/KeyChain/">Documentation</button>
+ <a class="btn btn-secondary btn-sm" href="https://avvrik.github.io/KeyChain/" type="button">Documentation</button>
  <button type="button" class="btn btn-secondary btn-sm" href="https://github.com/arrayio/array-io-keychain/releases/download/0.11/KeyChain.Installer.v0.11.zip">Download</button>
  <button type="button" class="btn btn-secondary btn-sm" href="https://keychain.array.io/">Website</button>
 
