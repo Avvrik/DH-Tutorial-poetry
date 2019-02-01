@@ -1,4 +1,5 @@
 
+![image](https://user-images.githubusercontent.com/34011337/52134915-bad35b00-2655-11e9-8fa6-324c0897aec1.png)
 # Структура тьюториала:
 1. Немного теории
     * Дети и литература
